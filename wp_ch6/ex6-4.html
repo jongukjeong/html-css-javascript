@@ -7,8 +7,8 @@
 
 /* JSON */
 var foo = {
-	name: "안대혁",
-	nick: "kickscar",
+	name: "홍길동",
+	nick: "honggildong",
 	aNumber: 5,
 	doFoo: function(){
 		alert( "I'm " + this.name );
@@ -30,12 +30,12 @@ var Foo = function( name, nick ) {
 	};
 };
 
-var foo1 = new Foo("안대혁1", "kickscar1");
+var foo1 = new Foo("홍길동1", "honggildong1");
 foo1.address = "서울시";
 foo1.f = function(){
 }
 
-var foo2 = new Foo("안대혁2", "kickscar2");
+var foo2 = new Foo("홍길동2", "honggildong2");
 
 foo1.doFoo();
 foo2.doFoo();
